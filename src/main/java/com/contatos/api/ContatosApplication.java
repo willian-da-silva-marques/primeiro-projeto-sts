@@ -1,12 +1,12 @@
-package com.meudominio.api;
+package com.contatos.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MeuPrimeiroProjetoApplication {
+public class ContatosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MeuPrimeiroProjetoApplication.class, args);
+		SpringApplication.run(ContatosApplication.class, args);
 	}
 }

@@ -11,11 +11,11 @@
 		<relativePath />
 	</parent>
 
-	<groupId>com.meudominio</groupId>
-	<artifactId>meu-primeiro-projeto</artifactId>
+	<groupId>com.contatos.api</groupId>
+	<artifactId>contatos-api</artifactId>
 	<version>1.0.0</version>
-	<name>meu-primeiro-projeto</name>
-	<description>Primeiro Projeto Spring</description>
+	<name>contatos-api</name>
+	<description>Aplicação para gerenciamento de contatos</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -45,6 +45,16 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
